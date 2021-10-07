@@ -55,10 +55,8 @@ public class TaskManagerTest {
             driver = BrowserSelection.usingChrome();
             test.taskManagerTest();
         } catch (InterruptedException e) {
-            System.out.println("Exception when creatinf");
             e.printStackTrace();
         } catch(Exception e){
-            System.out.println("skjdhflkjhD");
             e.printStackTrace();
         }finally {
             driver.quit();
